@@ -1,0 +1,59 @@
+.linha {
+    margin: 0;
+}
+
+.rodape {
+    padding: 2em 2.5em;
+}
+.rodape__titulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+.rodape__educacao {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .rodape__educacao {
+        display: block;
+    }
+    .texto__educacao {
+        font-size: 14px;
+        color: var(--gray);
+    }
+    .rodape {
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    .rodape__educacao {
+        margin: 1em;
+    }
+    .rodape__botao {
+        display: flex;
+        align-items: center;
+        margin: 1em;
+    }
+    .rodape__botao__botao {
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 0.5em;
+        color: var(--dark-gray);
+        font-size: 14px;
+
+    }
+    .rodape__titulo {
+        margin: 0.6em 2em;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1771px) {
+    .rodape__educacao {
+        border-left: 2px solid var(--gray);
+        padding-left: 1em;
+        display: block;
+
+    }
+    
+}
